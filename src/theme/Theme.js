@@ -22,7 +22,7 @@ export const theme = (mode) =>
     ...CssBaseline,
     palette: {
       type: mode === 'light' ? 'light' : 'dark',
-      primary: mode === 'light' ? [lightPalette] : [darkPalette],
+      primary: mode === 'light' ? lightPalette : darkPalette,
       secondary: {
         main: '#EE7674',
       },
