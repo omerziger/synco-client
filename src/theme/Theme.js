@@ -17,7 +17,7 @@ const darkPalette = {
   contrastText: '#FFFFFF',
 };
 
-export const theme = (mode) =>
+const theme = (mode) =>
   createTheme({
     ...CssBaseline,
     palette: {
@@ -57,3 +57,5 @@ export const theme = (mode) =>
       },
     },
   });
+
+export default theme;
