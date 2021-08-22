@@ -7,10 +7,13 @@ export default function App() {
   return (
     <>
       <Switch>
-        <Route exact path={["/", "/signin"]}>
+        <Route path="/signin">
           <SignIn />
         </Route>
         <Route path="/signup">
+          <SignUp />
+        </Route>
+        <Route exact path="/">
           <SignUp />
         </Route>
       </Switch>
